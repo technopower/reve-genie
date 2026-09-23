@@ -249,7 +249,7 @@ def correct_english_sentence(text: str) -> str:
         return corrected
 
 
-@app.get("/")
+@app.api_route("/", methods=["GET", "HEAD"])
 async def root():
     """
     Root endpoint returning backend service status.
