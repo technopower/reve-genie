@@ -42,7 +42,7 @@ app.add_middleware(
 
 # Configurable settings from environment variables
 OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-4o-mini").strip()
-logger.info("Gemini Multimodal: CONFIGURED (Model: gemini-3.8-flash)")
+GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-1.5-flash").strip()
 
 # Provider configuration checkers
 def is_openai_configured() -> bool:
