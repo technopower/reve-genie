@@ -1,0 +1,6 @@
+{
+  "name": "REVE GENIE",
+  "description": "Original, modern AI education app, study planner, AI scanner, and personal teacher for Bangladesh students",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

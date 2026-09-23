@@ -1,0 +1,488 @@
+Initialized native services in: /opt/gradle/.gradle/native
+Initialized jansi services in: /opt/gradle/.gradle/native
+The client will now receive all logging from the daemon (pid: 61). The daemon log file: /opt/gradle/.gradle/daemon/9.3.1/daemon-61.out.log
+Starting 4th build in daemon [uptime: 44 mins 35.111 secs, performance: 98%, GC rate: 0.00/s, heap usage: 0% of 4 GiB]
+Using 4 worker leases.
+Operational build model parameters: {requiresToolingModels=false, parallelProjectExecution=true, configureOnDemand=false, configurationCache=true, configurationCacheParallelStore=false, configurationCacheParallelLoad=true, isolatedProjects=false, parallelProjectConfiguration=false, intermediateModelCache=false, parallelToolingApiActions=true, invalidateCoupledProjects=false, modelAsProjectDependency=false, resilientModelBuilding=false}
+Invalidating in-memory cache of /app/applet/.gradle/9.3.1/fileHashes/fileHashes.bin
+Invalidating in-memory cache of /app/applet/.gradle/9.3.1/fileHashes/resourceHashesCache.bin
+Invalidating in-memory cache of /app/applet/.gradle/buildOutputCleanup/outputFiles.bin
+Encryption key source: default Gradle keystore (pkcs12)
+Invalidating in-memory cache of /opt/gradle/.gradle/caches/journal-1/file-access.bin
+Invalidating in-memory cache of /opt/gradle/.gradle/caches/9.3.1/fileHashes/kotlinDslCompileAvoidanceClasspathHashCache.bin
+Invalidating in-memory cache of /opt/gradle/.gradle/caches/9.3.1/fileHashes/fileHashes.bin
+Invalidating in-memory cache of /opt/gradle/.gradle/caches/9.3.1/fileHashes/resourceHashesCache.bin
+Reusing configuration cache.
+Watching the file system is configured to be enabled if available
+Unable to list file systems to check whether they can be watched. Disabling watching. Reason: Could not query file systems: could not open mount file (errno 2: No such file or directory)
+File system watching is inactive
+Using local directory build cache for the root build (location = /opt/gradle/.gradle/caches/build-cache-1, remove unused entries = after 7 days).
+Tasks to be executed: [task ':app:preBuild', task ':app:preDebugBuild', task ':app:generateDebugBuildConfig', task ':app:generateDebugResources', task ':app:processDebugGoogleServices', task ':app:packageDebugResources', task ':app:processDebugNavigationResources', task ':app:parseDebugLocalResources', task ':app:generateDebugRFile', task ':app:kspDebugKotlin', task ':app:compileDebugKotlin', task ':app:javaPreCompileDebug', task ':app:compileDebugJavaWithJavac', task ':app:checkDebugAarMetadata', task ':app:mapDebugSourceSetPaths', task ':app:compileDebugNavigationResources', task ':app:mergeDebugResources', task ':app:createDebugCompatibleScreenManifests', task ':app:extractDeepLinksDebug', task ':app:processDebugMainManifest', task ':app:processDebugManifest', task ':app:processDebugManifestForPackage', task ':app:processDebugResources', task ':app:bundleDebugClassesToRuntimeJar', task ':app:bundleDebugClassesToCompileJar', task ':app:kspDebugUnitTestKotlin', task ':app:preDebugUnitTestBuild', task ':app:compileDebugUnitTestKotlin', task ':app:javaPreCompileDebugUnitTest', task ':app:compileDebugUnitTestJavaWithJavac', task ':app:generateDebugAssets', task ':app:mergeDebugAssets', task ':app:packageDebugUnitTestForUnitTest', task ':app:processDebugUnitTestManifest', task ':app:generateDebugUnitTestConfig', task ':app:processDebugJavaRes', task ':app:processDebugUnitTestJavaRes', task ':app:testDebugUnitTest', task ':app:finalizeTestRoborazziDebug']
+Tasks that were excluded: []
+Resolve mutations for :app:preBuild (Thread[#323,Execution worker,5,main]) started.
+Resolve mutations for :app:processDebugGoogleServices (Thread[#322,included builds,5,main]) started.
+Resolve mutations for :app:generateDebugAssets (Thread[#324,Execution worker Thread 2,5,main]) started.
+:app:preBuild (Thread[#325,Execution worker Thread 3,5,main]) started.
+:app:processDebugGoogleServices (Thread[#324,Execution worker Thread 2,5,main]) started.
+:app:generateDebugAssets (Thread[#323,Execution worker,5,main]) started.
+Invalidating in-memory cache of /app/applet/.gradle/9.3.1/executionHistory/executionHistory.bin
+
+> Task :app:preBuild UP-TO-DATE
+Skipping task ':app:preBuild' as it has no actions.
+
+> Task :app:generateDebugAssets UP-TO-DATE
+Skipping task ':app:generateDebugAssets' as it has no actions.
+Build 9fb0a939-586a-4d57-aa20-1df8c8f84c82 is started
+Resolve mutations for :app:preDebugBuild (Thread[#325,Execution worker Thread 3,5,main]) started.
+:app:preDebugBuild (Thread[#325,Execution worker Thread 3,5,main]) started.
+Resolve mutations for :app:preDebugUnitTestBuild (Thread[#322,included builds,5,main]) started.
+
+> Task :app:preDebugBuild UP-TO-DATE
+Skipping task ':app:preDebugBuild' as it has no actions.
+Resolve mutations for :app:generateDebugBuildConfig (Thread[#325,Execution worker Thread 3,5,main]) started.
+Resolve mutations for :app:generateDebugResources (Thread[#322,included builds,5,main]) started.
+Resolve mutations for :app:processDebugNavigationResources (Thread[#323,Execution worker,5,main]) started.
+:app:generateDebugBuildConfig (Thread[#325,Execution worker Thread 3,5,main]) started.
+:app:processDebugNavigationResources (Thread[#323,Execution worker,5,main]) started.
+:app:generateDebugResources (Thread[#322,included builds,5,main]) started.
+
+> Task :app:processDebugGoogleServices UP-TO-DATE
+Build cache key for task ':app:processDebugGoogleServices' is b2434bd099644211ea97d611ff7953c3
+Skipping task ':app:processDebugGoogleServices' as it is up-to-date.
+Resolve mutations for :app:javaPreCompileDebug (Thread[#324,Execution worker Thread 2,5,main]) started.
+
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+Build cache key for task ':app:generateDebugBuildConfig' is f9b1d2e0ca3daa88a5fb5f4aaf84517b
+Skipping task ':app:generateDebugBuildConfig' as it is up-to-date.
+:app:javaPreCompileDebug (Thread[#324,Execution worker Thread 2,5,main]) started.
+Resolve mutations for :app:kspDebugKotlin (Thread[#325,Execution worker Thread 3,5,main]) started.
+:app:kspDebugKotlin (Thread[#325,Execution worker Thread 3,5,main]) started.
+
+> Task :app:generateDebugResources UP-TO-DATE
+Build cache key for task ':app:generateDebugResources' is c7122792310680865827e5eccadc40be
+Skipping task ':app:generateDebugResources' as it is up-to-date.
+Resolve mutations for :app:packageDebugResources (Thread[#322,included builds,5,main]) started.
+:app:packageDebugResources (Thread[#322,included builds,5,main]) started.
+
+> Task :app:javaPreCompileDebug UP-TO-DATE
+Build cache key for task ':app:javaPreCompileDebug' is d2627ff1806fdc296d05fcb509ca19b7
+Skipping task ':app:javaPreCompileDebug' as it is up-to-date.
+
+> Task :app:packageDebugResources UP-TO-DATE
+Build cache key for task ':app:packageDebugResources' is 5769f7ee33509ee26578221d141e07a7
+Skipping task ':app:packageDebugResources' as it is up-to-date.
+Resolve mutations for :app:checkDebugAarMetadata (Thread[#324,Execution worker Thread 2,5,main]) started.
+Resolve mutations for :app:mapDebugSourceSetPaths (Thread[#322,included builds,5,main]) started.
+:app:checkDebugAarMetadata (Thread[#324,Execution worker Thread 2,5,main]) started.
+:app:mapDebugSourceSetPaths (Thread[#322,included builds,5,main]) started.
+
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+Caching disabled for task ':app:mapDebugSourceSetPaths' because:
+  Caching has been disabled for the task
+Skipping task ':app:mapDebugSourceSetPaths' as it is up-to-date.
+Resolve mutations for :app:mergeDebugResources (Thread[#322,included builds,5,main]) started.
+:app:mergeDebugResources (Thread[#322,included builds,5,main]) started.
+
+> Task :app:kspDebugKotlin UP-TO-DATE
+Build cache key for task ':app:kspDebugKotlin' is 341ab3f91d2ec06fed374e012765b822
+Skipping task ':app:kspDebugKotlin' as it is up-to-date.
+Resolve mutations for :app:createDebugCompatibleScreenManifests (Thread[#325,Execution worker Thread 3,5,main]) started.
+:app:createDebugCompatibleScreenManifests (Thread[#325,Execution worker Thread 3,5,main]) started.
+
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+Caching disabled for task ':app:createDebugCompatibleScreenManifests' because:
+  Caching has been disabled for the task
+Skipping task ':app:createDebugCompatibleScreenManifests' as it is up-to-date.
+Resolve mutations for :app:extractDeepLinksDebug (Thread[#325,Execution worker Thread 3,5,main]) started.
+:app:extractDeepLinksDebug (Thread[#325,Execution worker Thread 3,5,main]) started.
+
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+Build cache key for task ':app:extractDeepLinksDebug' is d611497ae43fc81281ae26958d3a1874
+Skipping task ':app:extractDeepLinksDebug' as it is up-to-date.
+Resolve mutations for :app:processDebugMainManifest (Thread[#325,Execution worker Thread 3,5,main]) started.
+:app:processDebugMainManifest (Thread[#325,Execution worker Thread 3,5,main]) started.
+
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+Caching disabled for task ':app:checkDebugAarMetadata' because:
+  Caching has been disabled for the task
+Skipping task ':app:checkDebugAarMetadata' as it is up-to-date.
+:app:preDebugUnitTestBuild (Thread[#324,Execution worker Thread 2,5,main]) started.
+
+> Task :app:preDebugUnitTestBuild UP-TO-DATE
+Skipping task ':app:preDebugUnitTestBuild' as it has no actions.
+Resolve mutations for :app:javaPreCompileDebugUnitTest (Thread[#324,Execution worker Thread 2,5,main]) started.
+:app:javaPreCompileDebugUnitTest (Thread[#324,Execution worker Thread 2,5,main]) started.
+
+> Task :app:javaPreCompileDebugUnitTest UP-TO-DATE
+Build cache key for task ':app:javaPreCompileDebugUnitTest' is ff93485904f91c628b9cd59c6d452b59
+Skipping task ':app:javaPreCompileDebugUnitTest' as it is up-to-date.
+Resolve mutations for :app:mergeDebugAssets (Thread[#324,Execution worker Thread 2,5,main]) started.
+:app:mergeDebugAssets (Thread[#324,Execution worker Thread 2,5,main]) started.
+
+> Task :app:processDebugMainManifest UP-TO-DATE
+Build cache key for task ':app:processDebugMainManifest' is 6db2353ba79312952a726078b8d9aae9
+Skipping task ':app:processDebugMainManifest' as it is up-to-date.
+Resolve mutations for :app:processDebugManifest (Thread[#325,Execution worker Thread 3,5,main]) started.
+
+> Task :app:mergeDebugResources UP-TO-DATE
+Build cache key for task ':app:mergeDebugResources' is 723a41b6dc7211cb90638a550a8800d2
+Skipping task ':app:mergeDebugResources' as it is up-to-date.
+:app:processDebugManifest (Thread[#322,included builds,5,main]) started.
+work action resolve navigation.json (project :app) (Thread[#325,Execution worker Thread 3,5,main]) started.
+Resolve mutations for :app:processDebugUnitTestManifest (Thread[#325,Execution worker Thread 3,5,main]) started.
+:app:processDebugUnitTestManifest (Thread[#325,Execution worker Thread 3,5,main]) started.
+
+> Task :app:processDebugManifest UP-TO-DATE
+Build cache key for task ':app:processDebugManifest' is e4500017ccfa529082a869bf0c5c38ff
+Skipping task ':app:processDebugManifest' as it is up-to-date.
+Resolve mutations for :app:processDebugManifestForPackage (Thread[#322,included builds,5,main]) started.
+:app:processDebugManifestForPackage (Thread[#322,included builds,5,main]) started.
+
+> Task :app:mergeDebugAssets UP-TO-DATE
+Caching disabled for task ':app:mergeDebugAssets' because:
+  Simple merging task
+Skipping task ':app:mergeDebugAssets' as it is up-to-date.
+
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+Build cache key for task ':app:processDebugManifestForPackage' is 60b1ed2a654106572806163160ed4f4f
+Skipping task ':app:processDebugManifestForPackage' as it is up-to-date.
+
+> Task :app:processDebugNavigationResources UP-TO-DATE
+Build cache key for task ':app:processDebugNavigationResources' is 7fee61d643ca27befb917cb342a49e25
+Skipping task ':app:processDebugNavigationResources' as it is up-to-date.
+Resolve mutations for :app:parseDebugLocalResources (Thread[#323,Execution worker,5,main]) started.
+Resolve mutations for :app:compileDebugNavigationResources (Thread[#322,included builds,5,main]) started.
+:app:parseDebugLocalResources (Thread[#323,Execution worker,5,main]) started.
+:app:compileDebugNavigationResources (Thread[#324,Execution worker Thread 2,5,main]) started.
+
+> Task :app:compileDebugNavigationResources UP-TO-DATE
+Build cache key for task ':app:compileDebugNavigationResources' is 7a0a474abb208ac54f5f1054d699d12b
+Skipping task ':app:compileDebugNavigationResources' as it is up-to-date.
+
+> Task :app:parseDebugLocalResources UP-TO-DATE
+Build cache key for task ':app:parseDebugLocalResources' is 52e3674883ffc7991f21929b49ffec39
+Skipping task ':app:parseDebugLocalResources' as it is up-to-date.
+Resolve mutations for :app:generateDebugRFile (Thread[#323,Execution worker,5,main]) started.
+Resolve mutations for :app:processDebugResources (Thread[#324,Execution worker Thread 2,5,main]) started.
+:app:generateDebugRFile (Thread[#323,Execution worker,5,main]) started.
+:app:processDebugResources (Thread[#324,Execution worker Thread 2,5,main]) started.
+
+> Task :app:generateDebugRFile UP-TO-DATE
+Build cache key for task ':app:generateDebugRFile' is c81765133405e7049fabe442d2e63a7a
+Skipping task ':app:generateDebugRFile' as it is up-to-date.
+Resolve mutations for :app:compileDebugKotlin (Thread[#323,Execution worker,5,main]) started.
+:app:compileDebugKotlin (Thread[#323,Execution worker,5,main]) started.
+
+> Task :app:processDebugUnitTestManifest UP-TO-DATE
+Caching disabled for task ':app:processDebugUnitTestManifest' because:
+  Caching has been disabled for the task
+Skipping task ':app:processDebugUnitTestManifest' as it is up-to-date.
+
+> Task :app:compileDebugKotlin UP-TO-DATE
+file or directory '/app/applet/app/src/main/kotlin', not found
+file or directory '/app/applet/app/src/debug/java', not found
+file or directory '/app/applet/app/src/debug/kotlin', not found
+file or directory '/app/applet/app/src/debug/java', not found
+file or directory '/app/applet/app/src/main/kotlin', not found
+file or directory '/app/applet/app/src/debug/java', not found
+file or directory '/app/applet/app/src/debug/kotlin', not found
+file or directory '/app/applet/app/src/debug/java', not found
+file or directory '/app/applet/app/src/main/kotlin', not found
+file or directory '/app/applet/app/src/debug/java', not found
+file or directory '/app/applet/app/src/debug/kotlin', not found
+file or directory '/app/applet/app/src/debug/java', not found
+Build cache key for task ':app:compileDebugKotlin' is c7a16a1a36d78916e673f79f0d097216
+Skipping task ':app:compileDebugKotlin' as it is up-to-date.
+
+> Task :app:processDebugResources UP-TO-DATE
+Build cache key for task ':app:processDebugResources' is abd6e27d56c8669f59cb4bb8fa49cba1
+Skipping task ':app:processDebugResources' as it is up-to-date.
+Resolve mutations for :app:packageDebugUnitTestForUnitTest (Thread[#325,Execution worker Thread 3,5,main]) started.
+Resolve mutations for :app:processDebugJavaRes (Thread[#323,Execution worker,5,main]) started.
+Resolve mutations for :app:compileDebugJavaWithJavac (Thread[#324,Execution worker Thread 2,5,main]) started.
+:app:packageDebugUnitTestForUnitTest (Thread[#325,Execution worker Thread 3,5,main]) started.
+:app:processDebugJavaRes (Thread[#323,Execution worker,5,main]) started.
+:app:compileDebugJavaWithJavac (Thread[#324,Execution worker Thread 2,5,main]) started.
+
+> Task :app:packageDebugUnitTestForUnitTest UP-TO-DATE
+Caching disabled for task ':app:packageDebugUnitTestForUnitTest' because:
+  Simple merging task
+Skipping task ':app:packageDebugUnitTestForUnitTest' as it is up-to-date.
+Resolve mutations for :app:generateDebugUnitTestConfig (Thread[#325,Execution worker Thread 3,5,main]) started.
+:app:generateDebugUnitTestConfig (Thread[#325,Execution worker Thread 3,5,main]) started.
+
+> Task :app:generateDebugUnitTestConfig UP-TO-DATE
+Caching disabled for task ':app:generateDebugUnitTestConfig' because:
+  Caching has been disabled for the task
+Skipping task ':app:generateDebugUnitTestConfig' as it is up-to-date.
+
+> Task :app:processDebugJavaRes UP-TO-DATE
+file or directory '/app/applet/app/src/main/resources', not found
+file or directory '/app/applet/app/src/debug/resources', not found
+Caching disabled for task ':app:processDebugJavaRes' because:
+  Caching has been disabled for the task
+Skipping task ':app:processDebugJavaRes' as it is up-to-date.
+work action resolve out (project :app) (Thread[#323,Execution worker,5,main]) started.
+
+> Task :app:compileDebugJavaWithJavac UP-TO-DATE
+Build cache key for task ':app:compileDebugJavaWithJavac' is 68601dea9415e902f86f622ec58352d2
+Skipping task ':app:compileDebugJavaWithJavac' as it is up-to-date.
+No compile result for :app:compileDebugJavaWithJavac
+Resolve mutations for :app:bundleDebugClassesToRuntimeJar (Thread[#324,Execution worker Thread 2,5,main]) started.
+Resolve mutations for :app:bundleDebugClassesToCompileJar (Thread[#323,Execution worker,5,main]) started.
+:app:bundleDebugClassesToRuntimeJar (Thread[#323,Execution worker,5,main]) started.
+:app:bundleDebugClassesToCompileJar (Thread[#322,included builds,5,main]) started.
+
+> Task :app:bundleDebugClassesToCompileJar UP-TO-DATE
+Caching disabled for task ':app:bundleDebugClassesToCompileJar' because:
+  Caching has been disabled for the task
+Skipping task ':app:bundleDebugClassesToCompileJar' as it is up-to-date.
+work action resolve classes.jar (project :app) (Thread[#322,included builds,5,main]) started.
+
+> Task :app:bundleDebugClassesToRuntimeJar UP-TO-DATE
+Caching disabled for task ':app:bundleDebugClassesToRuntimeJar' because:
+  Caching has been disabled for the task
+Skipping task ':app:bundleDebugClassesToRuntimeJar' as it is up-to-date.
+Resolve mutations for :app:kspDebugUnitTestKotlin (Thread[#322,included builds,5,main]) started.
+work action resolve classes.jar (project :app) (Thread[#323,Execution worker,5,main]) started.
+:app:kspDebugUnitTestKotlin (Thread[#322,included builds,5,main]) started.
+
+> Task :app:kspDebugUnitTestKotlin UP-TO-DATE
+Build cache key for task ':app:kspDebugUnitTestKotlin' is a7b27944c8e153f9a3653f212ab556bf
+Skipping task ':app:kspDebugUnitTestKotlin' as it is up-to-date.
+Resolve mutations for :app:compileDebugUnitTestKotlin (Thread[#322,included builds,5,main]) started.
+:app:compileDebugUnitTestKotlin (Thread[#322,included builds,5,main]) started.
+
+> Task :app:compileDebugUnitTestKotlin UP-TO-DATE
+file or directory '/app/applet/app/src/test/kotlin', not found
+file or directory '/app/applet/app/src/testDebug/java', not found
+file or directory '/app/applet/app/src/testDebug/kotlin', not found
+file or directory '/app/applet/app/src/testDebug/java', not found
+file or directory '/app/applet/app/src/test/kotlin', not found
+file or directory '/app/applet/app/src/testDebug/java', not found
+file or directory '/app/applet/app/src/testDebug/kotlin', not found
+file or directory '/app/applet/app/src/testDebug/java', not found
+file or directory '/app/applet/app/src/test/kotlin', not found
+file or directory '/app/applet/app/src/testDebug/java', not found
+file or directory '/app/applet/app/src/testDebug/kotlin', not found
+file or directory '/app/applet/app/src/testDebug/java', not found
+Build cache key for task ':app:compileDebugUnitTestKotlin' is 8453d628e89fdd5f98ecaf325bf2a535
+Skipping task ':app:compileDebugUnitTestKotlin' as it is up-to-date.
+Resolve mutations for :app:compileDebugUnitTestJavaWithJavac (Thread[#322,included builds,5,main]) started.
+Resolve mutations for :app:processDebugUnitTestJavaRes (Thread[#324,Execution worker Thread 2,5,main]) started.
+:app:compileDebugUnitTestJavaWithJavac (Thread[#322,included builds,5,main]) started.
+:app:processDebugUnitTestJavaRes (Thread[#325,Execution worker Thread 3,5,main]) started.
+
+> Task :app:compileDebugUnitTestJavaWithJavac NO-SOURCE
+Skipping task ':app:compileDebugUnitTestJavaWithJavac' as it has no source files and no previous output files.
+
+> Task :app:processDebugUnitTestJavaRes UP-TO-DATE
+file or directory '/app/applet/app/src/test/resources', not found
+file or directory '/app/applet/app/src/testDebug/resources', not found
+Caching disabled for task ':app:processDebugUnitTestJavaRes' because:
+  Caching has been disabled for the task
+Skipping task ':app:processDebugUnitTestJavaRes' as it is up-to-date.
+Resolve mutations for :app:testDebugUnitTest (Thread[#325,Execution worker Thread 3,5,main]) started.
+:app:testDebugUnitTest (Thread[#325,Execution worker Thread 3,5,main]) started.
+Gradle Test Executor 3 started executing tests.
+
+> Task :app:testDebugUnitTest
+Caching disabled for task ':app:testDebugUnitTest' because:
+  Gradle does not know how file 'build/test-results/testDebugUnitTest/binary/output-events.bin' was created (output property 'binaryResultsDirectory'). Task output caching requires exclusive access to output paths to guarantee correctness (i.e. multiple tasks are not allowed to produce output in the same location).
+Task ':app:testDebugUnitTest' is not up-to-date because:
+  Value of input property 'filter.commandLineIncludePatterns' has changed for task ':app:testDebugUnitTest'
+file or directory '/app/applet/app/build/generated/ksp/debugUnitTest/resources', not found
+file or directory '/app/applet/app/build/generated/ksp/debugUnitTest/classes', not found
+file or directory '/app/applet/app/build/intermediates/javac/debugUnitTest/compileDebugUnitTestJavaWithJavac/classes', not found
+Starting process 'Gradle Test Executor 3'. Working directory: /app/applet/app Command: /usr/lib/jvm/temurin-21-jdk-amd64/bin/java -Djava.awt.headless=true -Djava.library.path=/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib:/app/applet/app/src/testDebug/jniLibs:/app/applet/app/src/test/jniLibs -Dorg.gradle.internal.worker.tmpdir=/app/applet/app/build/tmp/testDebugUnitTest/work --add-opens=java.base/java.io=ALL-UNNAMED @/opt/gradle/.gradle/.tmp/gradle-worker-classpath8807845520210018583txt -Xmx512m -Dfile.encoding=UTF-8 -Duser.country=US -Duser.language=en -Duser.variant -ea worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 3'
+Successfully started process 'Gradle Test Executor 3'
+
+PdfDiagnosticTest > testHsc_Failing STANDARD_OUT
+    ==================================================
+    DIAGNOSTIC TEST FOR: FAILING HSC (bookId=hsc_physics_1_bv)
+    ==================================================
+    bookId: hsc_physics_1_bv
+    title: Physics 1st Paper (HSC - BV)
+    class: Class 12 (HSC)
+    medium: bangla
+    fileName: HSC_Physics_1st_Paper_BV_NCTB_2026.pdf.pdf
+    r2Key: hsc/bangla/HSC_Physics_1st_Paper_BV_NCTB_2026.pdf.pdf
+    finalUrl: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/hsc/bangla/HSC_Physics_1st_Paper_BV_NCTB_2026.pdf.pdf
+    HTTP status: 404
+    Content-Type: text/html
+    Content-Length: 27150
+    PDF first 4/8 bytes hex: none
+    PDF first 4/8 bytes ascii: none
+    VIEW PDF EXCEPTION: java.lang.IllegalStateException: PDF unavailable for Physics 1st Paper (HSC - BV) (2026 Edition): PDF unavailable for Physics 1st Paper (HSC - BV) (2026 Edition) [HTTP 404].
+
+PdfDiagnosticTest > testHsc_Failing STANDARD_ERROR
+    java.lang.IllegalStateException: PDF unavailable for Physics 1st Paper (HSC - BV) (2026 Edition): PDF unavailable for Physics 1st Paper (HSC - BV) (2026 Edition) [HTTP 404].
+    	at com.example.data.BookStorageManager$ensureBookAvailable$2.invokeSuspend(BookStorageManager.kt:378)
+    	at _COROUTINE._BOUNDARY._(CoroutineDebugging.kt:42)
+    	at com.example.PdfDiagnosticTest$runDiagnosticForBook$2.invokeSuspend(PdfDiagnosticTest.kt:102)
+    Caused by: java.lang.IllegalStateException: PDF unavailable for Physics 1st Paper (HSC - BV) (2026 Edition): PDF unavailable for Physics 1st Paper (HSC - BV) (2026 Edition) [HTTP 404].
+    	at com.example.data.BookStorageManager$ensureBookAvailable$2.invokeSuspend(BookStorageManager.kt:378)
+    	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+    	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+    	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+    	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+    	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+    	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+    	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+    	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+    Caused by: java.lang.IllegalStateException: PDF unavailable for Physics 1st Paper (HSC - BV) (2026 Edition) [HTTP 404].
+    	at com.example.data.BookStorageManager$ensureBookAvailable$2.invokeSuspend(BookStorageManager.kt:370)
+    	... 8 more
+
+PdfDiagnosticTest > testHsc_Failing STANDARD_OUT
+    downloaded file path: none
+    downloaded file size: -1
+    View result: FAILED: java.lang.IllegalStateException - PDF unavailable for Physics 1st Paper (HSC - BV) (2026 Edition): PDF unavailable for Physics 1st Paper (HSC - BV) (2026 Edition) [HTTP 404].
+    DOWNLOAD STATES: [Progress, Error]
+    DOWNLOAD ERROR: PDF unavailable for Physics 1st Paper (HSC - BV) (2026 Edition) [HTTP 404].
+    Download result: FAILED: PDF unavailable for Physics 1st Paper (HSC - BV) (2026 Edition) [HTTP 404].
+    ==================================================
+
+
+PdfDiagnosticTest > testClass8_Failing STANDARD_OUT
+    ==================================================
+    DIAGNOSTIC TEST FOR: FAILING CLASS 8 (bookId=c8_math_bv)
+    ==================================================
+    bookId: c8_math_bv
+    title: Mathematics (Class 8 - BV)
+    class: Class 8
+    medium: bangla
+    fileName: Class8_Math_BV_NCTB_2026.pdf.pdf
+    r2Key: class8/bangla/Class8_Math_BV_NCTB_2026.pdf.pdf
+    finalUrl: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/class8/bangla/Class8_Math_BV_NCTB_2026.pdf.pdf
+    HTTP status: 200
+    Content-Type: application/pdf
+    Content-Length: 29586296
+    PDF first 4/8 bytes hex: 25 50 44 46 2D 31 2E 36
+    PDF first 4/8 bytes ascii: %PDF-1.6
+    FILE_CHECK: exists=true size=29586296 readable=true path=/tmp/robolectric-PdfDiagnosticTest_testClass8_Failing12135407100195002103/com.aistudio.revegenie.edututor-dataDir/files/downloaded_textbooks/c8_math_bv_2026_edition.pdf
+    PdfRenderer SUCCESS: pageCount=0
+    downloaded file path: /tmp/robolectric-PdfDiagnosticTest_testClass8_Failing12135407100195002103/com.aistudio.revegenie.edututor-dataDir/files/downloaded_textbooks/c8_math_bv_2026_edition.pdf
+    downloaded file size: 29586296
+    View result: SUCCESS (pages=0)
+    DOWNLOAD STATES: [Progress, Completed]
+    DOWNLOAD COMPLETED: file=/tmp/robolectric-PdfDiagnosticTest_testClass8_Failing12135407100195002103/com.aistudio.revegenie.edututor-dataDir/files/downloaded_textbooks/c8_math_bv_2026_edition.pdf size=29586296
+    Download result: SUCCESS (size=29586296)
+    ==================================================
+
+
+PdfDiagnosticTest > testClass7_Working STANDARD_OUT
+    ==================================================
+    DIAGNOSTIC TEST FOR: WORKING CLASS 7 (bookId=c7_english_bv)
+    ==================================================
+    bookId: c7_english_bv
+    title: English for Today (Class 7 - BV)
+    class: Class 7
+    medium: bangla
+    fileName: Class7_English_For_Today_BV_NCTB_2026.pdf.pdf
+    r2Key: class7/bangla/Class7_English_For_Today_BV_NCTB_2026.pdf.pdf
+    finalUrl: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/class7/bangla/Class7_English_For_Today_BV_NCTB_2026.pdf.pdf
+    HTTP status: 404
+    Content-Type: text/html
+    Content-Length: 27150
+    PDF first 4/8 bytes hex: none
+    PDF first 4/8 bytes ascii: none
+    VIEW PDF EXCEPTION: java.lang.IllegalStateException: PDF unavailable for English for Today (Class 7 - BV) (2026 Edition): PDF unavailable for English for Today (Class 7 - BV) (2026 Edition) [HTTP 404].
+
+PdfDiagnosticTest > testClass7_Working STANDARD_ERROR
+    java.lang.IllegalStateException: PDF unavailable for English for Today (Class 7 - BV) (2026 Edition): PDF unavailable for English for Today (Class 7 - BV) (2026 Edition) [HTTP 404].
+    	at com.example.data.BookStorageManager$ensureBookAvailable$2.invokeSuspend(BookStorageManager.kt:378)
+    	at _COROUTINE._BOUNDARY._(CoroutineDebugging.kt:42)
+    	at com.example.PdfDiagnosticTest$runDiagnosticForBook$2.invokeSuspend(PdfDiagnosticTest.kt:102)
+    Caused by: java.lang.IllegalStateException: PDF unavailable for English for Today (Class 7 - BV) (2026 Edition): PDF unavailable for English for Today (Class 7 - BV) (2026 Edition) [HTTP 404].
+    	at com.example.data.BookStorageManager$ensureBookAvailable$2.invokeSuspend(BookStorageManager.kt:378)
+    	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+    	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+    	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+    	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+    	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+    	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+    	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+    	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+    Caused by: java.lang.IllegalStateException: PDF unavailable for English for Today (Class 7 - BV) (2026 Edition) [HTTP 404].
+    	at com.example.data.BookStorageManager$ensureBookAvailable$2.invokeSuspend(BookStorageManager.kt:370)
+    	... 8 more
+
+PdfDiagnosticTest > testClass7_Working STANDARD_OUT
+    downloaded file path: none
+    downloaded file size: -1
+    View result: FAILED: java.lang.IllegalStateException - PDF unavailable for English for Today (Class 7 - BV) (2026 Edition): PDF unavailable for English for Today (Class 7 - BV) (2026 Edition) [HTTP 404].
+    DOWNLOAD STATES: [Progress, Error]
+    DOWNLOAD ERROR: PDF unavailable for English for Today (Class 7 - BV) (2026 Edition) [HTTP 404].
+    Download result: FAILED: PDF unavailable for English for Today (Class 7 - BV) (2026 Edition) [HTTP 404].
+    ==================================================
+
+
+PdfDiagnosticTest > testSsc_Failing STANDARD_OUT
+    ==================================================
+    DIAGNOSTIC TEST FOR: FAILING SSC (bookId=ssc_physics_bv)
+    ==================================================
+    bookId: ssc_physics_bv
+    title: Physics (SSC - BV)
+    class: Class 10 (SSC)
+    medium: bangla
+    fileName: SSC_Physics_BV_NCTB_2026.pdf.pdf
+    r2Key: ssc/bangla/SSC_Physics_BV_NCTB_2026.pdf.pdf
+    finalUrl: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/ssc/bangla/SSC_Physics_BV_NCTB_2026.pdf.pdf
+    HTTP status: 404
+    Content-Type: text/html
+    Content-Length: 27150
+    PDF first 4/8 bytes hex: none
+    PDF first 4/8 bytes ascii: none
+    VIEW PDF EXCEPTION: java.lang.IllegalStateException: PDF unavailable for Physics (SSC - BV) (2026 Edition): PDF unavailable for Physics (SSC - BV) (2026 Edition) [HTTP 404].
+
+PdfDiagnosticTest > testSsc_Failing STANDARD_ERROR
+    java.lang.IllegalStateException: PDF unavailable for Physics (SSC - BV) (2026 Edition): PDF unavailable for Physics (SSC - BV) (2026 Edition) [HTTP 404].
+    	at com.example.data.BookStorageManager$ensureBookAvailable$2.invokeSuspend(BookStorageManager.kt:378)
+    	at _COROUTINE._BOUNDARY._(CoroutineDebugging.kt:42)
+    	at com.example.PdfDiagnosticTest$runDiagnosticForBook$2.invokeSuspend(PdfDiagnosticTest.kt:102)
+    Caused by: java.lang.IllegalStateException: PDF unavailable for Physics (SSC - BV) (2026 Edition): PDF unavailable for Physics (SSC - BV) (2026 Edition) [HTTP 404].
+    	at com.example.data.BookStorageManager$ensureBookAvailable$2.invokeSuspend(BookStorageManager.kt:378)
+    	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+    	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+    	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+    	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+    	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+    	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+    	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+    	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+    Caused by: java.lang.IllegalStateException: PDF unavailable for Physics (SSC - BV) (2026 Edition) [HTTP 404].
+    	at com.example.data.BookStorageManager$ensureBookAvailable$2.invokeSuspend(BookStorageManager.kt:370)
+    	... 8 more
+
+PdfDiagnosticTest > testSsc_Failing STANDARD_OUT
+    downloaded file path: none
+    downloaded file size: -1
+    View result: FAILED: java.lang.IllegalStateException - PDF unavailable for Physics (SSC - BV) (2026 Edition): PDF unavailable for Physics (SSC - BV) (2026 Edition) [HTTP 404].
+    DOWNLOAD STATES: [Progress, Error]
+    DOWNLOAD ERROR: PDF unavailable for Physics (SSC - BV) (2026 Edition) [HTTP 404].
+    Download result: FAILED: PDF unavailable for Physics (SSC - BV) (2026 Edition) [HTTP 404].
+    ==================================================
+
+
+Gradle Test Executor 3 finished executing tests.
+
+> Task :app:testDebugUnitTest
+Generating HTML test report...
+Finished generating test html results (0.016 secs) into: /app/applet/app/build/reports/tests/testDebugUnitTest
+Finished generating test XML results (0.005 secs) into: /app/applet/app/build/test-results/testDebugUnitTest
+Invalidating in-memory cache of /app/applet/.gradle/9.3.1/fileHashes/fileHashes.bin
+Invalidating in-memory cache of /app/applet/.gradle/9.3.1/fileHashes/resourceHashesCache.bin
+Invalidating in-memory cache of /app/applet/.gradle/9.3.1/executionHistory/executionHistory.bin
+Invalidating in-memory cache of /app/applet/.gradle/buildOutputCleanup/outputFiles.bin
+Resolve mutations for :app:finalizeTestRoborazziDebug (Thread[#325,Execution worker Thread 3,5,main]) started.
+:app:finalizeTestRoborazziDebug (Thread[#325,Execution worker Thread 3,5,main]) started.
+
+> Task :app:finalizeTestRoborazziDebug SKIPPED
+Roborazzi: roborazziTestFinalizer.onlyIf doesRoborazziRun false
+Skipping task ':app:finalizeTestRoborazziDebug' as task onlyIf 'Task satisfies onlyIf spec' is false.
+Build 9fb0a939-586a-4d57-aa20-1df8c8f84c82 is closed
+
+BUILD SUCCESSFUL in 14s
+33 actionable tasks: 1 executed, 32 up-to-date
+Configuration cache entry reused.

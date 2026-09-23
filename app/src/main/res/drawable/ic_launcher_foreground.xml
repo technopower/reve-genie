@@ -1,0 +1,29 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- REVE GENIE Teacher Insignia: AI Spark + Wisdom Lamp + Atom -->
+    <!-- Central AI Star / Spark -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M54,26 L57,36 L67,39 L57,42 L54,52 L51,42 L41,39 L51,36 Z" />
+    <!-- Wisdom Lamp / Open Book Arc Base -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M32,58 C32,50 42,48 54,48 C66,48 76,50 76,58 C76,66 66,74 54,74 C42,74 32,66 32,58 Z" />
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M38,60 C38,54 45,52 54,52 C63,52 70,54 70,60 C70,64 63,68 54,68 C45,68 38,64 38,60 Z" />
+    <!-- Pedestal Base -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M48,74 L60,74 L63,82 L45,82 Z" />
+    <!-- Ambient Sparks -->
+    <path
+        android:fillColor="#80FFFFFF"
+        android:pathData="M36,38 L37.5,42 L41.5,43.5 L37.5,45 L36,49 L34.5,45 L30.5,43.5 L34.5,42 Z" />
+    <path
+        android:fillColor="#80FFFFFF"
+        android:pathData="M72,38 L73.5,42 L77.5,43.5 L73.5,45 L72,49 L70.5,45 L66.5,43.5 L70.5,42 Z" />
+</vector>

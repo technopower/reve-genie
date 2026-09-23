@@ -1,0 +1,765 @@
+[HTTP 200 — EXISTS]
+Book title: Bangladesh and Global Studies (Class 8 - BV)
+Book ID: c8_bgs_bv
+Subject: bgs
+Medium: bangla
+Version: BV
+Expected local PDF filename: Class8_Bangladesh_Global_Studies_BV_NCTB_2026.pdf.pdf
+Exact R2 object key: class8/bangla/Class8_Bangladesh_Global_Studies_BV_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/class8/bangla/Class8_Bangladesh_Global_Studies_BV_NCTB_2026.pdf.pdf
+Current HTTP status: 200
+---
+Book title: Bangladesh and Global Studies (Class 8 - EV)
+Book ID: c8_bgs_ev
+Subject: bgs
+Medium: english
+Version: EV
+Expected local PDF filename: Class8_Bangladesh_Global_Studies_EV_NCTB_2026.pdf.pdf
+Exact R2 object key: class8/english/Class8_Bangladesh_Global_Studies_EV_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/class8/english/Class8_Bangladesh_Global_Studies_EV_NCTB_2026.pdf.pdf
+Current HTTP status: 200
+---
+Book title: English for Today (Class 8 - BV)
+Book ID: c8_english_bv
+Subject: english
+Medium: bangla
+Version: BV
+Expected local PDF filename: Class8_English_For_Today_BV_NCTB_2026.pdf.pdf
+Exact R2 object key: class8/bangla/Class8_English_For_Today_BV_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/class8/bangla/Class8_English_For_Today_BV_NCTB_2026.pdf.pdf
+Current HTTP status: 200
+---
+Book title: Information & Communication Technology (Class 8 - BV)
+Book ID: c8_ict_bv
+Subject: ict
+Medium: bangla
+Version: BV
+Expected local PDF filename: Class8_ICT_BV_NCTB_2026.pdf.pdf
+Exact R2 object key: class8/bangla/Class8_ICT_BV_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/class8/bangla/Class8_ICT_BV_NCTB_2026.pdf.pdf
+Current HTTP status: 200
+---
+Book title: Information & Communication Technology (Class 8 - EV)
+Book ID: c8_ict_ev
+Subject: ict
+Medium: english
+Version: EV
+Expected local PDF filename: Class8_ICT_EV_NCTB_2026.pdf.pdf
+Exact R2 object key: class8/english/Class8_ICT_EV_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/class8/english/Class8_ICT_EV_NCTB_2026.pdf.pdf
+Current HTTP status: 200
+---
+Book title: Mathematics (Class 8 - BV)
+Book ID: c8_math_bv
+Subject: math
+Medium: bangla
+Version: BV
+Expected local PDF filename: Class8_Math_BV_NCTB_2026.pdf.pdf
+Exact R2 object key: class8/bangla/Class8_Math_BV_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/class8/bangla/Class8_Math_BV_NCTB_2026.pdf.pdf
+Current HTTP status: 200
+---
+Book title: Mathematics (Class 8 - EV)
+Book ID: c8_math_ev
+Subject: math
+Medium: english
+Version: EV
+Expected local PDF filename: Class8_Math_EV_NCTB_2026.pdf.pdf
+Exact R2 object key: class8/english/Class8_Math_EV_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/class8/english/Class8_Math_EV_NCTB_2026.pdf.pdf
+Current HTTP status: 200
+---
+Book title: General Science (Class 8 - BV)
+Book ID: c8_science_bv
+Subject: science
+Medium: bangla
+Version: BV
+Expected local PDF filename: Class8_Science_BV_NCTB_2026.pdf.pdf
+Exact R2 object key: class8/bangla/Class8_Science_BV_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/class8/bangla/Class8_Science_BV_NCTB_2026.pdf.pdf
+Current HTTP status: 200
+---
+
+[HTTP 404 — MISSING]
+Book title: Sahitya Kanika (Class 8 - BV)
+Book ID: c8_bangla_bv
+Subject: bangla
+Medium: bangla
+Version: BV
+Expected local PDF filename: Class8_Sahitya_Kanika_BV_NCTB_2026.pdf.pdf
+Exact R2 object key: class8/bangla/Class8_Sahitya_Kanika_BV_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/class8/bangla/Class8_Sahitya_Kanika_BV_NCTB_2026.pdf.pdf
+Current HTTP status: 404
+Wrangler Command: npx wrangler r2 object put reve-genie-books/class8/bangla/Class8_Sahitya_Kanika_BV_NCTB_2026.pdf.pdf --file="Class8_Sahitya_Kanika_BV_NCTB_2026.pdf.pdf" --remote
+---
+Book title: Sahitya Kanika (Class 8 - EV)
+Book ID: c8_bangla_ev
+Subject: bangla
+Medium: english
+Version: EV
+Expected local PDF filename: Class8_Sahitya_Kanika_EV_NCTB_2026.pdf.pdf
+Exact R2 object key: class8/english/Class8_Sahitya_Kanika_EV_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/class8/english/Class8_Sahitya_Kanika_EV_NCTB_2026.pdf.pdf
+Current HTTP status: 404
+Wrangler Command: npx wrangler r2 object put reve-genie-books/class8/english/Class8_Sahitya_Kanika_EV_NCTB_2026.pdf.pdf --file="Class8_Sahitya_Kanika_EV_NCTB_2026.pdf.pdf" --remote
+---
+Book title: English for Today (Class 8 - EV)
+Book ID: c8_english_ev
+Subject: english
+Medium: english
+Version: EV
+Expected local PDF filename: Class8_English_For_Today_EV_NCTB_2026.pdf.pdf
+Exact R2 object key: class8/english/Class8_English_For_Today_EV_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/class8/english/Class8_English_For_Today_EV_NCTB_2026.pdf.pdf
+Current HTTP status: 404
+Wrangler Command: npx wrangler r2 object put reve-genie-books/class8/english/Class8_English_For_Today_EV_NCTB_2026.pdf.pdf --file="Class8_English_For_Today_EV_NCTB_2026.pdf.pdf" --remote
+---
+Book title: General Science (Class 8 - EV)
+Book ID: c8_science_ev
+Subject: science
+Medium: english
+Version: EV
+Expected local PDF filename: Class8_Science_EV_NCTB_2026.pdf.pdf
+Exact R2 object key: class8/english/Class8_Science_EV_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/class8/english/Class8_Science_EV_NCTB_2026.pdf.pdf
+Current HTTP status: 404
+Wrangler Command: npx wrangler r2 object put reve-genie-books/class8/english/Class8_Science_EV_NCTB_2026.pdf.pdf --file="Class8_Science_EV_NCTB_2026.pdf.pdf" --remote
+---
+Book title: Accounting 1st Paper (HSC)
+Book ID: hsc_accounting_1
+Subject: accounting_1
+Medium: None
+Version: None
+Expected local PDF filename: HSC_Accounting_1st_Paper_NCTB_2026.pdf.pdf
+Exact R2 object key: hsc/bangla/HSC_Accounting_1st_Paper_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/hsc/bangla/HSC_Accounting_1st_Paper_NCTB_2026.pdf.pdf
+Current HTTP status: 404
+Wrangler Command: npx wrangler r2 object put reve-genie-books/hsc/bangla/HSC_Accounting_1st_Paper_NCTB_2026.pdf.pdf --file="HSC_Accounting_1st_Paper_NCTB_2026.pdf.pdf" --remote
+---
+Book title: Accounting 2nd Paper (HSC)
+Book ID: hsc_accounting_2
+Subject: accounting_2
+Medium: None
+Version: None
+Expected local PDF filename: HSC_Accounting_2nd_Paper_NCTB_2026.pdf.pdf
+Exact R2 object key: hsc/bangla/HSC_Accounting_2nd_Paper_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/hsc/bangla/HSC_Accounting_2nd_Paper_NCTB_2026.pdf.pdf
+Current HTTP status: 404
+Wrangler Command: npx wrangler r2 object put reve-genie-books/hsc/bangla/HSC_Accounting_2nd_Paper_NCTB_2026.pdf.pdf --file="HSC_Accounting_2nd_Paper_NCTB_2026.pdf.pdf" --remote
+---
+Book title: Sahitya Path Bangla 1st Paper (HSC - BV)
+Book ID: hsc_bangla_1_bv
+Subject: bangla_1
+Medium: bangla
+Version: BV
+Expected local PDF filename: HSC_Bangla_1st_Paper_BV_NCTB_2026.pdf.pdf
+Exact R2 object key: hsc/bangla/HSC_Bangla_1st_Paper_BV_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/hsc/bangla/HSC_Bangla_1st_Paper_BV_NCTB_2026.pdf.pdf
+Current HTTP status: 404
+Wrangler Command: npx wrangler r2 object put reve-genie-books/hsc/bangla/HSC_Bangla_1st_Paper_BV_NCTB_2026.pdf.pdf --file="HSC_Bangla_1st_Paper_BV_NCTB_2026.pdf.pdf" --remote
+---
+Book title: Bangla 2nd Paper (HSC - BV)
+Book ID: hsc_bangla_2_bv
+Subject: bangla_2
+Medium: bangla
+Version: BV
+Expected local PDF filename: HSC_Bangla_2nd_Paper_BV_NCTB_2026.pdf.pdf
+Exact R2 object key: hsc/bangla/HSC_Bangla_2nd_Paper_BV_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/hsc/bangla/HSC_Bangla_2nd_Paper_BV_NCTB_2026.pdf.pdf
+Current HTTP status: 404
+Wrangler Command: npx wrangler r2 object put reve-genie-books/hsc/bangla/HSC_Bangla_2nd_Paper_BV_NCTB_2026.pdf.pdf --file="HSC_Bangla_2nd_Paper_BV_NCTB_2026.pdf.pdf" --remote
+---
+Book title: Biology 1st Paper (HSC - BV)
+Book ID: hsc_biology_1_bv
+Subject: biology_1
+Medium: bangla
+Version: BV
+Expected local PDF filename: HSC_Biology_1st_Paper_BV_NCTB_2026.pdf.pdf
+Exact R2 object key: hsc/bangla/HSC_Biology_1st_Paper_BV_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/hsc/bangla/HSC_Biology_1st_Paper_BV_NCTB_2026.pdf.pdf
+Current HTTP status: 404
+Wrangler Command: npx wrangler r2 object put reve-genie-books/hsc/bangla/HSC_Biology_1st_Paper_BV_NCTB_2026.pdf.pdf --file="HSC_Biology_1st_Paper_BV_NCTB_2026.pdf.pdf" --remote
+---
+Book title: Biology 2nd Paper (HSC - BV)
+Book ID: hsc_biology_2_bv
+Subject: biology_2
+Medium: bangla
+Version: BV
+Expected local PDF filename: HSC_Biology_2nd_Paper_BV_NCTB_2026.pdf.pdf
+Exact R2 object key: hsc/bangla/HSC_Biology_2nd_Paper_BV_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/hsc/bangla/HSC_Biology_2nd_Paper_BV_NCTB_2026.pdf.pdf
+Current HTTP status: 404
+Wrangler Command: npx wrangler r2 object put reve-genie-books/hsc/bangla/HSC_Biology_2nd_Paper_BV_NCTB_2026.pdf.pdf --file="HSC_Biology_2nd_Paper_BV_NCTB_2026.pdf.pdf" --remote
+---
+Book title: Business Organization & Management 1st Paper (HSC)
+Book ID: hsc_bom_1
+Subject: bom_1
+Medium: None
+Version: None
+Expected local PDF filename: HSC_BOM_1st_Paper_NCTB_2026.pdf.pdf
+Exact R2 object key: hsc/bangla/HSC_BOM_1st_Paper_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/hsc/bangla/HSC_BOM_1st_Paper_NCTB_2026.pdf.pdf
+Current HTTP status: 404
+Wrangler Command: npx wrangler r2 object put reve-genie-books/hsc/bangla/HSC_BOM_1st_Paper_NCTB_2026.pdf.pdf --file="HSC_BOM_1st_Paper_NCTB_2026.pdf.pdf" --remote
+---
+Book title: Business Organization & Management 2nd Paper (HSC)
+Book ID: hsc_bom_2
+Subject: bom_2
+Medium: None
+Version: None
+Expected local PDF filename: HSC_BOM_2nd_Paper_NCTB_2026.pdf.pdf
+Exact R2 object key: hsc/bangla/HSC_BOM_2nd_Paper_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/hsc/bangla/HSC_BOM_2nd_Paper_NCTB_2026.pdf.pdf
+Current HTTP status: 404
+Wrangler Command: npx wrangler r2 object put reve-genie-books/hsc/bangla/HSC_BOM_2nd_Paper_NCTB_2026.pdf.pdf --file="HSC_BOM_2nd_Paper_NCTB_2026.pdf.pdf" --remote
+---
+Book title: Chemistry 1st Paper (HSC - BV)
+Book ID: hsc_chemistry_1_bv
+Subject: chemistry_1
+Medium: bangla
+Version: BV
+Expected local PDF filename: HSC_Chemistry_1st_Paper_BV_NCTB_2026.pdf.pdf
+Exact R2 object key: hsc/bangla/HSC_Chemistry_1st_Paper_BV_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/hsc/bangla/HSC_Chemistry_1st_Paper_BV_NCTB_2026.pdf.pdf
+Current HTTP status: 404
+Wrangler Command: npx wrangler r2 object put reve-genie-books/hsc/bangla/HSC_Chemistry_1st_Paper_BV_NCTB_2026.pdf.pdf --file="HSC_Chemistry_1st_Paper_BV_NCTB_2026.pdf.pdf" --remote
+---
+Book title: Chemistry 1st Paper (HSC - EV)
+Book ID: hsc_chemistry_1_ev
+Subject: chemistry_1
+Medium: english
+Version: EV
+Expected local PDF filename: HSC_Chemistry_1st_Paper_EV_NCTB_2026.pdf.pdf
+Exact R2 object key: hsc/english/HSC_Chemistry_1st_Paper_EV_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/hsc/english/HSC_Chemistry_1st_Paper_EV_NCTB_2026.pdf.pdf
+Current HTTP status: 404
+Wrangler Command: npx wrangler r2 object put reve-genie-books/hsc/english/HSC_Chemistry_1st_Paper_EV_NCTB_2026.pdf.pdf --file="HSC_Chemistry_1st_Paper_EV_NCTB_2026.pdf.pdf" --remote
+---
+Book title: Chemistry 2nd Paper (HSC - BV)
+Book ID: hsc_chemistry_2_bv
+Subject: chemistry_2
+Medium: bangla
+Version: BV
+Expected local PDF filename: HSC_Chemistry_2nd_Paper_BV_NCTB_2026.pdf.pdf
+Exact R2 object key: hsc/bangla/HSC_Chemistry_2nd_Paper_BV_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/hsc/bangla/HSC_Chemistry_2nd_Paper_BV_NCTB_2026.pdf.pdf
+Current HTTP status: 404
+Wrangler Command: npx wrangler r2 object put reve-genie-books/hsc/bangla/HSC_Chemistry_2nd_Paper_BV_NCTB_2026.pdf.pdf --file="HSC_Chemistry_2nd_Paper_BV_NCTB_2026.pdf.pdf" --remote
+---
+Book title: Civics and Good Governance 1st Paper (HSC)
+Book ID: hsc_civics_1
+Subject: civics_1
+Medium: None
+Version: None
+Expected local PDF filename: HSC_Civics_1st_Paper_NCTB_2026.pdf.pdf
+Exact R2 object key: hsc/bangla/HSC_Civics_1st_Paper_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/hsc/bangla/HSC_Civics_1st_Paper_NCTB_2026.pdf.pdf
+Current HTTP status: 404
+Wrangler Command: npx wrangler r2 object put reve-genie-books/hsc/bangla/HSC_Civics_1st_Paper_NCTB_2026.pdf.pdf --file="HSC_Civics_1st_Paper_NCTB_2026.pdf.pdf" --remote
+---
+Book title: Civics and Good Governance 2nd Paper (HSC)
+Book ID: hsc_civics_2
+Subject: civics_2
+Medium: None
+Version: None
+Expected local PDF filename: HSC_Civics_2nd_Paper_NCTB_2026.pdf.pdf
+Exact R2 object key: hsc/bangla/HSC_Civics_2nd_Paper_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/hsc/bangla/HSC_Civics_2nd_Paper_NCTB_2026.pdf.pdf
+Current HTTP status: 404
+Wrangler Command: npx wrangler r2 object put reve-genie-books/hsc/bangla/HSC_Civics_2nd_Paper_NCTB_2026.pdf.pdf --file="HSC_Civics_2nd_Paper_NCTB_2026.pdf.pdf" --remote
+---
+Book title: Economics 1st Paper (HSC)
+Book ID: hsc_economics_1
+Subject: economics_1
+Medium: None
+Version: None
+Expected local PDF filename: HSC_Economics_1st_Paper_NCTB_2026.pdf.pdf
+Exact R2 object key: hsc/bangla/HSC_Economics_1st_Paper_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/hsc/bangla/HSC_Economics_1st_Paper_NCTB_2026.pdf.pdf
+Current HTTP status: 404
+Wrangler Command: npx wrangler r2 object put reve-genie-books/hsc/bangla/HSC_Economics_1st_Paper_NCTB_2026.pdf.pdf --file="HSC_Economics_1st_Paper_NCTB_2026.pdf.pdf" --remote
+---
+Book title: Economics 2nd Paper (HSC)
+Book ID: hsc_economics_2
+Subject: economics_2
+Medium: None
+Version: None
+Expected local PDF filename: HSC_Economics_2nd_Paper_NCTB_2026.pdf.pdf
+Exact R2 object key: hsc/bangla/HSC_Economics_2nd_Paper_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/hsc/bangla/HSC_Economics_2nd_Paper_NCTB_2026.pdf.pdf
+Current HTTP status: 404
+Wrangler Command: npx wrangler r2 object put reve-genie-books/hsc/bangla/HSC_Economics_2nd_Paper_NCTB_2026.pdf.pdf --file="HSC_Economics_2nd_Paper_NCTB_2026.pdf.pdf" --remote
+---
+Book title: English for Today 1st Paper (HSC - BV)
+Book ID: hsc_english_1_bv
+Subject: english_1
+Medium: bangla
+Version: BV
+Expected local PDF filename: HSC_English_1st_Paper_BV_NCTB_2026.pdf.pdf
+Exact R2 object key: hsc/bangla/HSC_English_1st_Paper_BV_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/hsc/bangla/HSC_English_1st_Paper_BV_NCTB_2026.pdf.pdf
+Current HTTP status: 404
+Wrangler Command: npx wrangler r2 object put reve-genie-books/hsc/bangla/HSC_English_1st_Paper_BV_NCTB_2026.pdf.pdf --file="HSC_English_1st_Paper_BV_NCTB_2026.pdf.pdf" --remote
+---
+Book title: English Grammar & Writing 2nd Paper (HSC - BV)
+Book ID: hsc_english_2_bv
+Subject: english_2
+Medium: bangla
+Version: BV
+Expected local PDF filename: HSC_English_2nd_Paper_BV_NCTB_2026.pdf.pdf
+Exact R2 object key: hsc/bangla/HSC_English_2nd_Paper_BV_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/hsc/bangla/HSC_English_2nd_Paper_BV_NCTB_2026.pdf.pdf
+Current HTTP status: 404
+Wrangler Command: npx wrangler r2 object put reve-genie-books/hsc/bangla/HSC_English_2nd_Paper_BV_NCTB_2026.pdf.pdf --file="HSC_English_2nd_Paper_BV_NCTB_2026.pdf.pdf" --remote
+---
+Book title: Finance, Banking & Insurance 1st Paper (HSC)
+Book ID: hsc_fbi_1
+Subject: fbi_1
+Medium: None
+Version: None
+Expected local PDF filename: HSC_FBI_1st_Paper_NCTB_2026.pdf.pdf
+Exact R2 object key: hsc/bangla/HSC_FBI_1st_Paper_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/hsc/bangla/HSC_FBI_1st_Paper_NCTB_2026.pdf.pdf
+Current HTTP status: 404
+Wrangler Command: npx wrangler r2 object put reve-genie-books/hsc/bangla/HSC_FBI_1st_Paper_NCTB_2026.pdf.pdf --file="HSC_FBI_1st_Paper_NCTB_2026.pdf.pdf" --remote
+---
+Book title: Finance, Banking & Insurance 2nd Paper (HSC)
+Book ID: hsc_fbi_2
+Subject: fbi_2
+Medium: None
+Version: None
+Expected local PDF filename: HSC_FBI_2nd_Paper_NCTB_2026.pdf.pdf
+Exact R2 object key: hsc/bangla/HSC_FBI_2nd_Paper_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/hsc/bangla/HSC_FBI_2nd_Paper_NCTB_2026.pdf.pdf
+Current HTTP status: 404
+Wrangler Command: npx wrangler r2 object put reve-genie-books/hsc/bangla/HSC_FBI_2nd_Paper_NCTB_2026.pdf.pdf --file="HSC_FBI_2nd_Paper_NCTB_2026.pdf.pdf" --remote
+---
+Book title: Higher Mathematics 1st Paper (HSC - BV)
+Book ID: hsc_higher_math_1_bv
+Subject: higher_math_1
+Medium: bangla
+Version: BV
+Expected local PDF filename: HSC_Higher_Math_1st_Paper_BV_NCTB_2026.pdf.pdf
+Exact R2 object key: hsc/bangla/HSC_Higher_Math_1st_Paper_BV_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/hsc/bangla/HSC_Higher_Math_1st_Paper_BV_NCTB_2026.pdf.pdf
+Current HTTP status: 404
+Wrangler Command: npx wrangler r2 object put reve-genie-books/hsc/bangla/HSC_Higher_Math_1st_Paper_BV_NCTB_2026.pdf.pdf --file="HSC_Higher_Math_1st_Paper_BV_NCTB_2026.pdf.pdf" --remote
+---
+Book title: Higher Mathematics 1st Paper (HSC - EV)
+Book ID: hsc_higher_math_1_ev
+Subject: higher_math_1
+Medium: english
+Version: EV
+Expected local PDF filename: HSC_Higher_Math_1st_Paper_EV_NCTB_2026.pdf.pdf
+Exact R2 object key: hsc/english/HSC_Higher_Math_1st_Paper_EV_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/hsc/english/HSC_Higher_Math_1st_Paper_EV_NCTB_2026.pdf.pdf
+Current HTTP status: 404
+Wrangler Command: npx wrangler r2 object put reve-genie-books/hsc/english/HSC_Higher_Math_1st_Paper_EV_NCTB_2026.pdf.pdf --file="HSC_Higher_Math_1st_Paper_EV_NCTB_2026.pdf.pdf" --remote
+---
+Book title: Higher Mathematics 2nd Paper (HSC - BV)
+Book ID: hsc_higher_math_2_bv
+Subject: higher_math_2
+Medium: bangla
+Version: BV
+Expected local PDF filename: HSC_Higher_Math_2nd_Paper_BV_NCTB_2026.pdf.pdf
+Exact R2 object key: hsc/bangla/HSC_Higher_Math_2nd_Paper_BV_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/hsc/bangla/HSC_Higher_Math_2nd_Paper_BV_NCTB_2026.pdf.pdf
+Current HTTP status: 404
+Wrangler Command: npx wrangler r2 object put reve-genie-books/hsc/bangla/HSC_Higher_Math_2nd_Paper_BV_NCTB_2026.pdf.pdf --file="HSC_Higher_Math_2nd_Paper_BV_NCTB_2026.pdf.pdf" --remote
+---
+Book title: History 1st Paper (HSC)
+Book ID: hsc_history_1
+Subject: history_1
+Medium: None
+Version: None
+Expected local PDF filename: HSC_History_1st_Paper_NCTB_2026.pdf.pdf
+Exact R2 object key: hsc/bangla/HSC_History_1st_Paper_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/hsc/bangla/HSC_History_1st_Paper_NCTB_2026.pdf.pdf
+Current HTTP status: 404
+Wrangler Command: npx wrangler r2 object put reve-genie-books/hsc/bangla/HSC_History_1st_Paper_NCTB_2026.pdf.pdf --file="HSC_History_1st_Paper_NCTB_2026.pdf.pdf" --remote
+---
+Book title: History 2nd Paper (HSC)
+Book ID: hsc_history_2
+Subject: history_2
+Medium: None
+Version: None
+Expected local PDF filename: HSC_History_2nd_Paper_NCTB_2026.pdf.pdf
+Exact R2 object key: hsc/bangla/HSC_History_2nd_Paper_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/hsc/bangla/HSC_History_2nd_Paper_NCTB_2026.pdf.pdf
+Current HTTP status: 404
+Wrangler Command: npx wrangler r2 object put reve-genie-books/hsc/bangla/HSC_History_2nd_Paper_NCTB_2026.pdf.pdf --file="HSC_History_2nd_Paper_NCTB_2026.pdf.pdf" --remote
+---
+Book title: Information & Communication Technology (HSC - BV)
+Book ID: hsc_ict_bv
+Subject: ict
+Medium: bangla
+Version: BV
+Expected local PDF filename: HSC_ICT_BV_NCTB_2026.pdf.pdf
+Exact R2 object key: hsc/bangla/HSC_ICT_BV_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/hsc/bangla/HSC_ICT_BV_NCTB_2026.pdf.pdf
+Current HTTP status: 404
+Wrangler Command: npx wrangler r2 object put reve-genie-books/hsc/bangla/HSC_ICT_BV_NCTB_2026.pdf.pdf --file="HSC_ICT_BV_NCTB_2026.pdf.pdf" --remote
+---
+Book title: Information & Communication Technology (HSC - EV)
+Book ID: hsc_ict_ev
+Subject: ict
+Medium: english
+Version: EV
+Expected local PDF filename: HSC_ICT_EV_NCTB_2026.pdf.pdf
+Exact R2 object key: hsc/english/HSC_ICT_EV_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/hsc/english/HSC_ICT_EV_NCTB_2026.pdf.pdf
+Current HTTP status: 404
+Wrangler Command: npx wrangler r2 object put reve-genie-books/hsc/english/HSC_ICT_EV_NCTB_2026.pdf.pdf --file="HSC_ICT_EV_NCTB_2026.pdf.pdf" --remote
+---
+Book title: Logic (HSC Humanities)
+Book ID: hsc_logic
+Subject: logic
+Medium: None
+Version: None
+Expected local PDF filename: HSC_Logic_NCTB_2026.pdf.pdf
+Exact R2 object key: hsc/bangla/HSC_Logic_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/hsc/bangla/HSC_Logic_NCTB_2026.pdf.pdf
+Current HTTP status: 404
+Wrangler Command: npx wrangler r2 object put reve-genie-books/hsc/bangla/HSC_Logic_NCTB_2026.pdf.pdf --file="HSC_Logic_NCTB_2026.pdf.pdf" --remote
+---
+Book title: Physics 1st Paper (HSC - BV)
+Book ID: hsc_physics_1_bv
+Subject: physics_1
+Medium: bangla
+Version: BV
+Expected local PDF filename: HSC_Physics_1st_Paper_BV_NCTB_2026.pdf.pdf
+Exact R2 object key: hsc/bangla/HSC_Physics_1st_Paper_BV_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/hsc/bangla/HSC_Physics_1st_Paper_BV_NCTB_2026.pdf.pdf
+Current HTTP status: 404
+Wrangler Command: npx wrangler r2 object put reve-genie-books/hsc/bangla/HSC_Physics_1st_Paper_BV_NCTB_2026.pdf.pdf --file="HSC_Physics_1st_Paper_BV_NCTB_2026.pdf.pdf" --remote
+---
+Book title: Physics 1st Paper (HSC - EV)
+Book ID: hsc_physics_1_ev
+Subject: physics_1
+Medium: english
+Version: EV
+Expected local PDF filename: HSC_Physics_1st_Paper_EV_NCTB_2026.pdf.pdf
+Exact R2 object key: hsc/english/HSC_Physics_1st_Paper_EV_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/hsc/english/HSC_Physics_1st_Paper_EV_NCTB_2026.pdf.pdf
+Current HTTP status: 404
+Wrangler Command: npx wrangler r2 object put reve-genie-books/hsc/english/HSC_Physics_1st_Paper_EV_NCTB_2026.pdf.pdf --file="HSC_Physics_1st_Paper_EV_NCTB_2026.pdf.pdf" --remote
+---
+Book title: Physics 2nd Paper (HSC - BV)
+Book ID: hsc_physics_2_bv
+Subject: physics_2
+Medium: bangla
+Version: BV
+Expected local PDF filename: HSC_Physics_2nd_Paper_BV_NCTB_2026.pdf.pdf
+Exact R2 object key: hsc/bangla/HSC_Physics_2nd_Paper_BV_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/hsc/bangla/HSC_Physics_2nd_Paper_BV_NCTB_2026.pdf.pdf
+Current HTTP status: 404
+Wrangler Command: npx wrangler r2 object put reve-genie-books/hsc/bangla/HSC_Physics_2nd_Paper_BV_NCTB_2026.pdf.pdf --file="HSC_Physics_2nd_Paper_BV_NCTB_2026.pdf.pdf" --remote
+---
+Book title: Physics 2nd Paper (HSC - EV)
+Book ID: hsc_physics_2_ev
+Subject: physics_2
+Medium: english
+Version: EV
+Expected local PDF filename: HSC_Physics_2nd_Paper_EV_NCTB_2026.pdf.pdf
+Exact R2 object key: hsc/english/HSC_Physics_2nd_Paper_EV_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/hsc/english/HSC_Physics_2nd_Paper_EV_NCTB_2026.pdf.pdf
+Current HTTP status: 404
+Wrangler Command: npx wrangler r2 object put reve-genie-books/hsc/english/HSC_Physics_2nd_Paper_EV_NCTB_2026.pdf.pdf --file="HSC_Physics_2nd_Paper_EV_NCTB_2026.pdf.pdf" --remote
+---
+Book title: Accounting (Secondary SSC)
+Book ID: ssc_accounting
+Subject: accounting
+Medium: None
+Version: None
+Expected local PDF filename: SSC_Accounting_NCTB_2026.pdf.pdf
+Exact R2 object key: ssc/bangla/SSC_Accounting_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/ssc/bangla/SSC_Accounting_NCTB_2026.pdf.pdf
+Current HTTP status: 404
+Wrangler Command: npx wrangler r2 object put reve-genie-books/ssc/bangla/SSC_Accounting_NCTB_2026.pdf.pdf --file="SSC_Accounting_NCTB_2026.pdf.pdf" --remote
+---
+Book title: Bangla Sahitya 1st Paper (SSC - BV)
+Book ID: ssc_bangla_1_bv
+Subject: bangla
+Medium: bangla
+Version: BV
+Expected local PDF filename: SSC_Bangla_1st_BV_NCTB_2026.pdf.pdf
+Exact R2 object key: ssc/bangla/SSC_Bangla_1st_BV_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/ssc/bangla/SSC_Bangla_1st_BV_NCTB_2026.pdf.pdf
+Current HTTP status: 404
+Wrangler Command: npx wrangler r2 object put reve-genie-books/ssc/bangla/SSC_Bangla_1st_BV_NCTB_2026.pdf.pdf --file="SSC_Bangla_1st_BV_NCTB_2026.pdf.pdf" --remote
+---
+Book title: Bangla Second Paper (SSC - BV)
+Book ID: ssc_bangla_2_bv
+Subject: bangla
+Medium: bangla
+Version: BV
+Expected local PDF filename: SSC_Bangla_2nd_BV_NCTB_2026.pdf.pdf
+Exact R2 object key: ssc/bangla/SSC_Bangla_2nd_BV_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/ssc/bangla/SSC_Bangla_2nd_BV_NCTB_2026.pdf.pdf
+Current HTTP status: 404
+Wrangler Command: npx wrangler r2 object put reve-genie-books/ssc/bangla/SSC_Bangla_2nd_BV_NCTB_2026.pdf.pdf --file="SSC_Bangla_2nd_BV_NCTB_2026.pdf.pdf" --remote
+---
+Book title: Bangladesh and Global Studies (SSC - BV)
+Book ID: ssc_bgs_bv
+Subject: bgs
+Medium: bangla
+Version: BV
+Expected local PDF filename: SSC_BGS_BV_NCTB_2026.pdf.pdf
+Exact R2 object key: ssc/bangla/SSC_BGS_BV_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/ssc/bangla/SSC_BGS_BV_NCTB_2026.pdf.pdf
+Current HTTP status: 404
+Wrangler Command: npx wrangler r2 object put reve-genie-books/ssc/bangla/SSC_BGS_BV_NCTB_2026.pdf.pdf --file="SSC_BGS_BV_NCTB_2026.pdf.pdf" --remote
+---
+Book title: Bangladesh and Global Studies (SSC - EV)
+Book ID: ssc_bgs_ev
+Subject: bgs
+Medium: english
+Version: EV
+Expected local PDF filename: SSC_BGS_EV_NCTB_2026.pdf.pdf
+Exact R2 object key: ssc/english/SSC_BGS_EV_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/ssc/english/SSC_BGS_EV_NCTB_2026.pdf.pdf
+Current HTTP status: 404
+Wrangler Command: npx wrangler r2 object put reve-genie-books/ssc/english/SSC_BGS_EV_NCTB_2026.pdf.pdf --file="SSC_BGS_EV_NCTB_2026.pdf.pdf" --remote
+---
+Book title: Biology (SSC - BV)
+Book ID: ssc_biology_bv
+Subject: biology
+Medium: bangla
+Version: BV
+Expected local PDF filename: SSC_Biology_BV_NCTB_2026.pdf.pdf
+Exact R2 object key: ssc/bangla/SSC_Biology_BV_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/ssc/bangla/SSC_Biology_BV_NCTB_2026.pdf.pdf
+Current HTTP status: 404
+Wrangler Command: npx wrangler r2 object put reve-genie-books/ssc/bangla/SSC_Biology_BV_NCTB_2026.pdf.pdf --file="SSC_Biology_BV_NCTB_2026.pdf.pdf" --remote
+---
+Book title: Biology (SSC - EV)
+Book ID: ssc_biology_ev
+Subject: biology
+Medium: english
+Version: EV
+Expected local PDF filename: SSC_Biology_EV_NCTB_2026.pdf.pdf
+Exact R2 object key: ssc/english/SSC_Biology_EV_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/ssc/english/SSC_Biology_EV_NCTB_2026.pdf.pdf
+Current HTTP status: 404
+Wrangler Command: npx wrangler r2 object put reve-genie-books/ssc/english/SSC_Biology_EV_NCTB_2026.pdf.pdf --file="SSC_Biology_EV_NCTB_2026.pdf.pdf" --remote
+---
+Book title: Business Entrepreneurship (SSC)
+Book ID: ssc_business_ent
+Subject: business_entrepreneurship
+Medium: None
+Version: None
+Expected local PDF filename: SSC_Business_Entrepreneurship_NCTB_2026.pdf.pdf
+Exact R2 object key: ssc/bangla/SSC_Business_Entrepreneurship_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/ssc/bangla/SSC_Business_Entrepreneurship_NCTB_2026.pdf.pdf
+Current HTTP status: 404
+Wrangler Command: npx wrangler r2 object put reve-genie-books/ssc/bangla/SSC_Business_Entrepreneurship_NCTB_2026.pdf.pdf --file="SSC_Business_Entrepreneurship_NCTB_2026.pdf.pdf" --remote
+---
+Book title: Chemistry (SSC - BV)
+Book ID: ssc_chemistry_bv
+Subject: chemistry
+Medium: bangla
+Version: BV
+Expected local PDF filename: SSC_Chemistry_BV_NCTB_2026.pdf.pdf
+Exact R2 object key: ssc/bangla/SSC_Chemistry_BV_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/ssc/bangla/SSC_Chemistry_BV_NCTB_2026.pdf.pdf
+Current HTTP status: 404
+Wrangler Command: npx wrangler r2 object put reve-genie-books/ssc/bangla/SSC_Chemistry_BV_NCTB_2026.pdf.pdf --file="SSC_Chemistry_BV_NCTB_2026.pdf.pdf" --remote
+---
+Book title: Chemistry (SSC - EV)
+Book ID: ssc_chemistry_ev
+Subject: chemistry
+Medium: english
+Version: EV
+Expected local PDF filename: SSC_Chemistry_EV_NCTB_2026.pdf.pdf
+Exact R2 object key: ssc/english/SSC_Chemistry_EV_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/ssc/english/SSC_Chemistry_EV_NCTB_2026.pdf.pdf
+Current HTTP status: 404
+Wrangler Command: npx wrangler r2 object put reve-genie-books/ssc/english/SSC_Chemistry_EV_NCTB_2026.pdf.pdf --file="SSC_Chemistry_EV_NCTB_2026.pdf.pdf" --remote
+---
+Book title: Civics and Citizenship (SSC)
+Book ID: ssc_civics
+Subject: civics
+Medium: None
+Version: None
+Expected local PDF filename: SSC_Civics_NCTB_2026.pdf.pdf
+Exact R2 object key: ssc/bangla/SSC_Civics_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/ssc/bangla/SSC_Civics_NCTB_2026.pdf.pdf
+Current HTTP status: 404
+Wrangler Command: npx wrangler r2 object put reve-genie-books/ssc/bangla/SSC_Civics_NCTB_2026.pdf.pdf --file="SSC_Civics_NCTB_2026.pdf.pdf" --remote
+---
+Book title: Economics (Secondary SSC)
+Book ID: ssc_economics
+Subject: economics
+Medium: None
+Version: None
+Expected local PDF filename: SSC_Economics_NCTB_2026.pdf.pdf
+Exact R2 object key: ssc/bangla/SSC_Economics_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/ssc/bangla/SSC_Economics_NCTB_2026.pdf.pdf
+Current HTTP status: 404
+Wrangler Command: npx wrangler r2 object put reve-genie-books/ssc/bangla/SSC_Economics_NCTB_2026.pdf.pdf --file="SSC_Economics_NCTB_2026.pdf.pdf" --remote
+---
+Book title: English for Today 1st Paper (SSC - BV)
+Book ID: ssc_english_1_bv
+Subject: english
+Medium: bangla
+Version: BV
+Expected local PDF filename: SSC_English_1st_BV_NCTB_2026.pdf.pdf
+Exact R2 object key: ssc/bangla/SSC_English_1st_BV_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/ssc/bangla/SSC_English_1st_BV_NCTB_2026.pdf.pdf
+Current HTTP status: 404
+Wrangler Command: npx wrangler r2 object put reve-genie-books/ssc/bangla/SSC_English_1st_BV_NCTB_2026.pdf.pdf --file="SSC_English_1st_BV_NCTB_2026.pdf.pdf" --remote
+---
+Book title: English Grammar and Composition 2nd Paper (SSC - BV)
+Book ID: ssc_english_2_bv
+Subject: english
+Medium: bangla
+Version: BV
+Expected local PDF filename: SSC_English_2nd_BV_NCTB_2026.pdf.pdf
+Exact R2 object key: ssc/bangla/SSC_English_2nd_BV_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/ssc/bangla/SSC_English_2nd_BV_NCTB_2026.pdf.pdf
+Current HTTP status: 404
+Wrangler Command: npx wrangler r2 object put reve-genie-books/ssc/bangla/SSC_English_2nd_BV_NCTB_2026.pdf.pdf --file="SSC_English_2nd_BV_NCTB_2026.pdf.pdf" --remote
+---
+Book title: English Grammar and Composition 2nd Paper (SSC - EV)
+Book ID: ssc_english_2_ev
+Subject: english
+Medium: english
+Version: EV
+Expected local PDF filename: SSC_English_2nd_EV_NCTB_2026.pdf.pdf
+Exact R2 object key: ssc/english/SSC_English_2nd_EV_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/ssc/english/SSC_English_2nd_EV_NCTB_2026.pdf.pdf
+Current HTTP status: 404
+Wrangler Command: npx wrangler r2 object put reve-genie-books/ssc/english/SSC_English_2nd_EV_NCTB_2026.pdf.pdf --file="SSC_English_2nd_EV_NCTB_2026.pdf.pdf" --remote
+---
+Book title: Finance and Banking (SSC)
+Book ID: ssc_finance_banking
+Subject: finance_banking
+Medium: None
+Version: None
+Expected local PDF filename: SSC_Finance_Banking_NCTB_2026.pdf.pdf
+Exact R2 object key: ssc/bangla/SSC_Finance_Banking_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/ssc/bangla/SSC_Finance_Banking_NCTB_2026.pdf.pdf
+Current HTTP status: 404
+Wrangler Command: npx wrangler r2 object put reve-genie-books/ssc/bangla/SSC_Finance_Banking_NCTB_2026.pdf.pdf --file="SSC_Finance_Banking_NCTB_2026.pdf.pdf" --remote
+---
+Book title: General Science (SSC Commerce & Arts)
+Book ID: ssc_general_science_bus
+Subject: general_science
+Medium: None
+Version: None
+Expected local PDF filename: SSC_General_Science_NCTB_2026.pdf.pdf
+Exact R2 object key: ssc/bangla/SSC_General_Science_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/ssc/bangla/SSC_General_Science_NCTB_2026.pdf.pdf
+Current HTTP status: 404
+Wrangler Command: npx wrangler r2 object put reve-genie-books/ssc/bangla/SSC_General_Science_NCTB_2026.pdf.pdf --file="SSC_General_Science_NCTB_2026.pdf.pdf" --remote
+---
+Book title: Geography and Environment (SSC)
+Book ID: ssc_geography
+Subject: geography
+Medium: None
+Version: None
+Expected local PDF filename: SSC_Geography_NCTB_2026.pdf.pdf
+Exact R2 object key: ssc/bangla/SSC_Geography_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/ssc/bangla/SSC_Geography_NCTB_2026.pdf.pdf
+Current HTTP status: 404
+Wrangler Command: npx wrangler r2 object put reve-genie-books/ssc/bangla/SSC_Geography_NCTB_2026.pdf.pdf --file="SSC_Geography_NCTB_2026.pdf.pdf" --remote
+---
+Book title: Higher Mathematics (SSC - BV)
+Book ID: ssc_higher_math_bv
+Subject: higher_math
+Medium: bangla
+Version: BV
+Expected local PDF filename: SSC_Higher_Mathematics_BV_NCTB_2026.pdf.pdf
+Exact R2 object key: ssc/bangla/SSC_Higher_Mathematics_BV_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/ssc/bangla/SSC_Higher_Mathematics_BV_NCTB_2026.pdf.pdf
+Current HTTP status: 404
+Wrangler Command: npx wrangler r2 object put reve-genie-books/ssc/bangla/SSC_Higher_Mathematics_BV_NCTB_2026.pdf.pdf --file="SSC_Higher_Mathematics_BV_NCTB_2026.pdf.pdf" --remote
+---
+Book title: Higher Mathematics (SSC - EV)
+Book ID: ssc_higher_math_ev
+Subject: higher_math
+Medium: english
+Version: EV
+Expected local PDF filename: SSC_Higher_Mathematics_EV_NCTB_2026.pdf.pdf
+Exact R2 object key: ssc/english/SSC_Higher_Mathematics_EV_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/ssc/english/SSC_Higher_Mathematics_EV_NCTB_2026.pdf.pdf
+Current HTTP status: 404
+Wrangler Command: npx wrangler r2 object put reve-genie-books/ssc/english/SSC_Higher_Mathematics_EV_NCTB_2026.pdf.pdf --file="SSC_Higher_Mathematics_EV_NCTB_2026.pdf.pdf" --remote
+---
+Book title: History of Bangladesh and World Civilization (SSC)
+Book ID: ssc_history
+Subject: history
+Medium: None
+Version: None
+Expected local PDF filename: SSC_History_NCTB_2026.pdf.pdf
+Exact R2 object key: ssc/bangla/SSC_History_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/ssc/bangla/SSC_History_NCTB_2026.pdf.pdf
+Current HTTP status: 404
+Wrangler Command: npx wrangler r2 object put reve-genie-books/ssc/bangla/SSC_History_NCTB_2026.pdf.pdf --file="SSC_History_NCTB_2026.pdf.pdf" --remote
+---
+Book title: Information & Communication Technology (SSC - BV)
+Book ID: ssc_ict_bv
+Subject: ict
+Medium: bangla
+Version: BV
+Expected local PDF filename: SSC_ICT_BV_NCTB_2026.pdf.pdf
+Exact R2 object key: ssc/bangla/SSC_ICT_BV_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/ssc/bangla/SSC_ICT_BV_NCTB_2026.pdf.pdf
+Current HTTP status: 404
+Wrangler Command: npx wrangler r2 object put reve-genie-books/ssc/bangla/SSC_ICT_BV_NCTB_2026.pdf.pdf --file="SSC_ICT_BV_NCTB_2026.pdf.pdf" --remote
+---
+Book title: Information & Communication Technology (SSC - EV)
+Book ID: ssc_ict_ev
+Subject: ict
+Medium: english
+Version: EV
+Expected local PDF filename: SSC_ICT_EV_NCTB_2026.pdf.pdf
+Exact R2 object key: ssc/english/SSC_ICT_EV_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/ssc/english/SSC_ICT_EV_NCTB_2026.pdf.pdf
+Current HTTP status: 404
+Wrangler Command: npx wrangler r2 object put reve-genie-books/ssc/english/SSC_ICT_EV_NCTB_2026.pdf.pdf --file="SSC_ICT_EV_NCTB_2026.pdf.pdf" --remote
+---
+Book title: General Mathematics (SSC - BV)
+Book ID: ssc_math_bv
+Subject: math
+Medium: bangla
+Version: BV
+Expected local PDF filename: SSC_General_Mathematics_BV_NCTB_2026.pdf.pdf
+Exact R2 object key: ssc/bangla/SSC_General_Mathematics_BV_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/ssc/bangla/SSC_General_Mathematics_BV_NCTB_2026.pdf.pdf
+Current HTTP status: 404
+Wrangler Command: npx wrangler r2 object put reve-genie-books/ssc/bangla/SSC_General_Mathematics_BV_NCTB_2026.pdf.pdf --file="SSC_General_Mathematics_BV_NCTB_2026.pdf.pdf" --remote
+---
+Book title: General Mathematics (SSC - EV)
+Book ID: ssc_math_ev
+Subject: math
+Medium: english
+Version: EV
+Expected local PDF filename: SSC_General_Mathematics_EV_NCTB_2026.pdf.pdf
+Exact R2 object key: ssc/english/SSC_General_Mathematics_EV_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/ssc/english/SSC_General_Mathematics_EV_NCTB_2026.pdf.pdf
+Current HTTP status: 404
+Wrangler Command: npx wrangler r2 object put reve-genie-books/ssc/english/SSC_General_Mathematics_EV_NCTB_2026.pdf.pdf --file="SSC_General_Mathematics_EV_NCTB_2026.pdf.pdf" --remote
+---
+Book title: Physics (SSC - BV)
+Book ID: ssc_physics_bv
+Subject: physics
+Medium: bangla
+Version: BV
+Expected local PDF filename: SSC_Physics_BV_NCTB_2026.pdf.pdf
+Exact R2 object key: ssc/bangla/SSC_Physics_BV_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/ssc/bangla/SSC_Physics_BV_NCTB_2026.pdf.pdf
+Current HTTP status: 404
+Wrangler Command: npx wrangler r2 object put reve-genie-books/ssc/bangla/SSC_Physics_BV_NCTB_2026.pdf.pdf --file="SSC_Physics_BV_NCTB_2026.pdf.pdf" --remote
+---
+Book title: Physics (SSC - EV)
+Book ID: ssc_physics_ev
+Subject: physics
+Medium: english
+Version: EV
+Expected local PDF filename: SSC_Physics_EV_NCTB_2026.pdf.pdf
+Exact R2 object key: ssc/english/SSC_Physics_EV_NCTB_2026.pdf.pdf
+Exact public URL: https://pub-e0fbc7b94d124c9091aacdb9b29e3855.r2.dev/ssc/english/SSC_Physics_EV_NCTB_2026.pdf.pdf
+Current HTTP status: 404
+Wrangler Command: npx wrangler r2 object put reve-genie-books/ssc/english/SSC_Physics_EV_NCTB_2026.pdf.pdf --file="SSC_Physics_EV_NCTB_2026.pdf.pdf" --remote
+---
