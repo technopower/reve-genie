@@ -62,13 +62,10 @@ async def startup_diagnostic():
     """
     Safe startup configuration diagnostic that reports provider configuration status without exposing keys.
     """
-    logger.info("==================================================")
     logger.info("REVE GENIE AI TEACHER BACKEND STARTUP DIAGNOSTIC")
-    logger.info("==================================================")
     logger.info(f"OpenAI Provider:          {'CONFIGURED' if is_openai_configured() else 'NOT CONFIGURED'} (Model: {OPENAI_MODEL})")
     logger.info(f"Gemini Multimodal:        {'CONFIGURED' if is_gemini_configured() else 'NOT CONFIGURED'} (Model: {GEMINI_MODEL})")
     logger.info(f"Google Translate:         {'CONFIGURED' if is_translate_configured() else 'NOT CONFIGURED'}")
-    logger.info("==================================================")
 
 
 # Master System Prompt for REVE Genie AI Teacher
